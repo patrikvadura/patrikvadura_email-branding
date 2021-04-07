@@ -7,3 +7,12 @@ https://patrikvadura.github.io/patrikvadura_email-branding/index.html
 
 **Invoice** - šablona pro fakturaci a vyúčtování <br>
 https://patrikvadura.github.io/patrikvadura_email-branding/invoice.html
+
+
+**Kalkulace** - šablona pro zaslání kalkulace <br>
+https://patrikvadura.github.io/patrikvadura_email-branding/kalkulace.html
+
+
+**Otázky** - otázky k tvorbě webu - informativní email <br>
+https://patrikvadura.github.io/patrikvadura_email-branding/otazky.html
+
