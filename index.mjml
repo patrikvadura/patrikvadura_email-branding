@@ -1,7 +1,7 @@
 <mjml>
   <mj-head>
-    <mj-title>Discount Light</mj-title>
-    <mj-preview>Pre-header Text</mj-preview>
+    <mj-title></mj-title>
+    <mj-preview></mj-preview>
     <mj-attributes>
       <mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
       <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
@@ -28,17 +28,7 @@
   <mj-body background-color="#E7E7E7" width="600px">
     <mj-section full-width="full-width" background-color="#040B4F" padding-bottom="0">
       <mj-column width="100%">
-        <mj-image src="https://github.com/patrikvadura/patrikvadura_email-branding/blob/main/assets/logo-negative.png?raw=true" alt="" align="center" width="150px" />
-        <mj-text color="#ffffff" font-weight="bold" align="center" text-transform="uppercase" font-size="16px" letter-spacing="1px" padding-top="30px">
-          Austin, TX
-          <br />
-          <span style="color: #979797; font-weight: normal">-</span>
-        </mj-text>
-        <mj-text color="#17CBC4" align="center" font-size="13px" padding-top="0" font-weight="bold" text-transform="uppercase" letter-spacing="1px" line-height="20px">
-          Austin Convention Center
-          <br />
-          123 Main Street, 78701
-        </mj-text>
+        <mj-image src="https://github.com/patrikvadura/patrikvadura_email-branding/blob/main/assets/logo-white.png?raw=true" alt="" align="center" width="150px" padding-bottom="32px" />
         <mj-image src="https://res.cloudinary.com/dheck1ubc/image/upload/v1544156968/Email/Images/AnnouncementOffset/header-top.png" width="600px" alt="" padding="0" href="https://google.com" />
       </mj-column>
     </mj-section>
@@ -129,11 +119,6 @@
             <br />
             Tuesday, December 21st: 8:00AM - 5:00PM
           </mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
-        <mj-column width="100%">
-          <mj-image src="https://res.cloudinary.com/dheck1ubc/image/upload/v1544153579/Email/Images/AnnouncementOffset/map.jpg" alt="" />
         </mj-column>
       </mj-section>
     </mj-wrapper>
