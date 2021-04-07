@@ -28,7 +28,7 @@
   <mj-body background-color="#E7E7E7" width="600px">
     <mj-section full-width="full-width" background-color="#040B4F" padding-bottom="0">
       <mj-column width="100%">
-        <mj-image src="https://res.cloudinary.com/dheck1ubc/image/upload/v1544153577/Email/Images/AnnouncementOffset/crofts-white.png" alt="" align="center" width="150px" />
+        <mj-image src="https://github.com/patrikvadura/patrikvadura_email-branding/blob/main/assets/logo-negative.png?raw=true" alt="" align="center" width="150px" />
         <mj-text color="#ffffff" font-weight="bold" align="center" text-transform="uppercase" font-size="16px" letter-spacing="1px" padding-top="30px">
           Austin, TX
           <br />
