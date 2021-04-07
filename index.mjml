@@ -9,7 +9,6 @@
     <mj-style inline="inline"> .body-section { -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); } </mj-style>
     <mj-style inline="inline"> .text-link { color: #5e6ebf } </mj-style>
     <mj-style inline="inline"> .footer-link { color: #888888 } </mj-style>
-    <mj-style> @media (max-width:480px) { .social { display: none!important; } } </mj-style>
   </mj-head>
   <mj-body background-color="#E7E7E7" width="600px">
     <mj-section full-width="full-width" background-color="#040B4F" padding-bottom="0">
@@ -35,20 +34,6 @@
       </mj-section>
     </mj-wrapper>
     <mj-wrapper full-width="full-width">
-      <mj-section css-class="social" padding-top="20px" padding-bottom="0">
-        <mj-column width="35px" padding="0">
-          <mj-image src="https://github.com/patrikvadura/patrikvadura_email-branding/blob/main/assets/icons/icon_twitter_50.png?raw=true" href="https://twitter.com/patrikvadura" width="20px" padding="0" />
-        </mj-column>
-        <mj-column width="35px" padding="0">
-          <mj-image src="https://github.com/patrikvadura/patrikvadura_email-branding/blob/main/assets/icons/icon_messanger_50.png?raw=true" href="https://www.facebook.com/PatrikVaduraPage" width="20px" padding="0" />
-        </mj-column>
-        <mj-column width="35px" padding="0">
-          <mj-image src="https://github.com/patrikvadura/patrikvadura_email-branding/blob/main/assets/icons/icon_website_50.png?raw=true" href="https://www.patrikvadura.cz" width="20px" padding="0" />
-        </mj-column>
-        <mj-column width="35px" padding="0">
-          <mj-image src="https://github.com/patrikvadura/patrikvadura_email-branding/blob/main/assets/icons/icon_behance_50.png?raw=true" href="https://twitter.com/patrikvadura" width="20px" padding="0" />
-        </mj-column>
-      </mj-section>
       <mj-section>
         <mj-column width="100%" padding="0">
           <mj-text font-size="11px" font-weight="bold" align="center"> (+420) 725 007 655 | info@patrikvadura.cz | www.patrikvadura.cz </mj-text>
