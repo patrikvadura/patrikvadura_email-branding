@@ -3,16 +3,16 @@
 ## Emailový branding
 
 **Index** - standartní emailová šablona pro korespondenci <br>
-https://patrikvadura.github.io/patrikvadura_email-branding/index.html
+https://patrikvadura.github.io/patrikvadura_email-branding/html/index.html
 
 **Invoice** - šablona pro fakturaci a vyúčtování <br>
-https://patrikvadura.github.io/patrikvadura_email-branding/invoice.html
+https://patrikvadura.github.io/patrikvadura_email-branding/html/invoice.html
 
 
 **Kalkulace** - šablona pro zaslání kalkulace <br>
-https://patrikvadura.github.io/patrikvadura_email-branding/kalkulace.html
+https://patrikvadura.github.io/patrikvadura_email-branding/html/kalkulace.html
 
 
 **Otázky** - otázky k tvorbě webu - informativní email <br>
-https://patrikvadura.github.io/patrikvadura_email-branding/otazky.html
+https://patrikvadura.github.io/patrikvadura_email-branding/html/otazky.html
 
