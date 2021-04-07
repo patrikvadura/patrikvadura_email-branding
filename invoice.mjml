@@ -17,8 +17,8 @@
         <mj-image src="https://github.com/patrikvadura/patrikvadura_email-branding/blob/main/assets/logo-white.png?raw=true" alt="" align="center" width="150px" padding-bottom="32px" />
       </mj-column>
       <mj-column background-color="#ffffff" padding-top="25px" padding-bottom="15px" padding-left="15px" padding-right="15px" width="100%">
-        <mj-text font-weight="bold" font-size="16px"> Hi Jane, </mj-text>
-        <mj-text font-size="14px"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia a assumenda nulla in quisquam optio quibusdam fugiat perspiciatis nobis, ad tempora culpa porro labore. Repudiandae accusamus obcaecati voluptatibus accusantium perspiciatis. </mj-text>
+        <mj-text font-weight="bold" font-size="16px" align="center"> Dobrý den, byla vám vystavena nová faktura. </mj-text>
+        <mj-text font-size="14px" align="center"> Fakturu/vyúčtování naleznete v příloze tohoto mailu. V případě jakýchkoliv dotazů mne neváhejte kontaktovat. </mj-text>
       </mj-column>
     </mj-section>
     <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
@@ -27,10 +27,11 @@
           <mj-divider border-color="#DFE3E8" border-width="1px" />
         </mj-column>
       </mj-section>
-      <mj-section background-color="#ffffff" padding="0 15px 30px 15px">
+      <mj-section background-color="#ffffff" padding="0 15px 15px 15px">
         <mj-column width="100%">
-          <mj-text color="#637381" font-size="14px" padding-bottom="0"> S přáním hezkého dne </mj-text>
-          <mj-text font-weight="bold" font-size="16px"> Patrik Vaďura </mj-text>
+          <mj-text color="#637381" font-size="16px" font-weight="bold" align="center" padding-bottom="0"> Informace k faktuře a platbě </mj-text>
+          <mj-text color="#637381" font-size="14px" align="center"> Banka CREDITAS a.s. | 100984166/2250 | Splatnost: <b>14 dní</b> </mj-text>
+          <mj-text font-size="12px" line-height="14px" align="center"> Dovoluji si Vás upozornit, že v případě nedodržení data splatnosti uvedeného na faktuře Vám budeme účtovat úrok z prodlení v dohodnuté, resp. zákonné výši a smluvní pokutu (byla-li sjednána). </mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>
