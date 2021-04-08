@@ -55,7 +55,7 @@
     <mj-wrapper full-width="full-width">
       <mj-section>
         <mj-column width="100%" padding="0">
-          <mj-text font-size="11px" font-weight="bold" align="center"> (+420) 725 007 655 | info@patrikvadura.cz | www.patrikvadura.cz </mj-text>
+          <mj-text font-size="11px" font-weight="bold" align="center" css-class="link"> <a href="">(+420) 725 007 655</a> | <a href="mailto:info@patrikvadura.cz;">info@patrikvadura.cz</a> | <a href="https://patrikvadura.cz">www.patrikvadura.cz</a> </mj-text>
           <mj-text color="#445566" font-size="11px" align="center" line-height="12px" padding-bottom="0"> Je potřeba tenhle email tisknout? Zamyslete se nad životním prostředím. </mj-text>
           <mj-text color="#445566" font-size="11px" align="center" line-height="12px"> &copy; Patrik Vadura, All Rights Reserved. </mj-text>
         </mj-column>
