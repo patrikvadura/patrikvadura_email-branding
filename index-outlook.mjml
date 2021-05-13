@@ -1,0 +1,43 @@
+<mjml>
+  <mj-head>
+    <mj-title></mj-title>
+    <mj-preview></mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#637381" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline"> .body-section { -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); } </mj-style>
+    <mj-style inline="inline"> .text-link { color: #5e6ebf } </mj-style>
+    <mj-style inline="inline"> .link a { color: #637381!important; font-weight: bold!important; text-decoration: none!important; } </mj-style>
+  </mj-head>
+  <mj-body background-color="#E7E7E7" width="600px">
+    <mj-section full-width="full-width" background-color="#040B4F" padding-bottom="0">
+      <mj-column width="100%">
+        <mj-image src="https://github.com/patrikvadura/patrikvadura_email-branding/blob/main/assets/logo-white.png?raw=true" alt="" align="center" width="150px" padding-bottom="32px" />
+      </mj-column>
+    </mj-section>
+    
+    <mj-section full-width="full-width" background-color="#ffffff" padding-top="0" padding-bottom="0">
+      <mj-column background-color="#ffffff" padding-top="25px" padding-bottom="15px" padding-left="15px" padding-right="15px" width="100%">
+       <mj-text font-weight="bold" font-size="16px"> Dobrý den, </mj-text>
+       <mj-text font-size="14px"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia a assumenda nulla in quisquam optio quibusdam fugiat perspiciatis nobis, ad tempora culpa porro labore. Repudiandae accusamus obcaecati voluptatibus accusantium perspiciatis. </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-divider border-color="#DFE3E8" border-width="1px" />
+       </mj-column>
+     </mj-section>
+     <mj-section full-width="full-width" background-color="#ffffff" padding="0 15px 30px 15px">
+      <mj-column width="100%">
+        <mj-text color="#637381" font-size="14px" padding-bottom="0"> S přáním hezkého dne </mj-text>
+        <mj-text font-weight="bold" font-size="16px"> Patrik Vaďura </mj-text>
+      </mj-column>
+     </mj-section>
+     <mj-section>
+       <mj-column width="100%" padding="0">
+         <mj-text font-size="11px" font-weight="bold" align="center" css-class="link"> <a href="">(+420) 725 007 655</a> | <a href="mailto:info@patrikvadura.cz;">info@patrikvadura.cz</a> | <a href="https://patrikvadura.cz">www.patrikvadura.cz</a> </mj-text>
+         <mj-text color="#445566" font-size="11px" align="center" line-height="12px" padding-bottom="0"> Je potřeba tenhle email tisknout? Zamyslete se nad životním prostředím.</mj-text>
+         <mj-text color="#445566" font-size="11px" align="center" line-height="12px"> &copy; Patrik Vadura, All Rights Reserved. </mj-text>
+       </mj-column>
+     </mj-section>
+   </mj-body>
+</mjml>
