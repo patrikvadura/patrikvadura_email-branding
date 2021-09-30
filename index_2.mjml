@@ -6,8 +6,8 @@
       <mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
       <mj-text font-weight="400" font-size="16px" color="#637381" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
     </mj-attributes>
-    <mj-style inline="inline"> .text-link { color: #5e6ebf } </mj-style>
     <mj-style inline="inline"> .link a { color: #637381!important; font-weight: bold!important; text-decoration: none!important; } </mj-style>
+    <mj-style inline="inline"> a { color: #637381!important; font-weight: bold!important; text-decoration: none!important; } </mj-style>
   </mj-head>
   <mj-body  width="600px">
     <mj-section full-width="full-width" padding-bottom="0">
@@ -39,7 +39,7 @@
     <mj-wrapper full-width="full-width">
       <mj-section padding-top="0">
         <mj-column width="100%" padding="0">
-          <mj-text font-size="11px" font-weight="bold" align="center" css-class="link"> <a href="">(+420) 725 007 655</a> | <a href="mailto:info@patrikvadura.cz;">info@patrikvadura.cz</a> | <a href="https://patrikvadura.cz">www.patrikvadura.cz</a> </mj-text>
+          <mj-text font-size="11px" font-weight="bold" align="center" color="#445566" css-class="link"> <a href="" color="#445566">(+420) 725 007 655</a> | <a href="mailto:info@patrikvadura.cz;" color="#445566">info@patrikvadura.cz</a> | <a href="https://patrikvadura.cz" color="#445566">www.patrikvadura.cz</a> </mj-text>
           <mj-text color="#445566" font-size="10px" align="center" line-height="10px" padding-top="0">Grafický design - Webdesign - Vývoj webových stránek - 3D vizualizace a animace </mj-text>
         </mj-column>
       </mj-section>
