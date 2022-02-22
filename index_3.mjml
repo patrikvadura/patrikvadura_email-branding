@@ -8,7 +8,16 @@
     </mj-attributes>
     <mj-style inline="inline"> .link a { color: #8D9081!important;  text-decoration: none!important; } </mj-style>
     <mj-style inline="inline"> a { color: #8D9081!important; text-decoration: none!important; } </mj-style>
+    
+    <mj-style>
+      @media (min-width:480px) { 
+        .nopadding {
+          padding-left: 0!important;
+        }
+      }
+    </mj-style>
   </mj-head>
+
   <mj-body width="600px">
     <mj-wrapper padding="0">
       <mj-section padding="0">
@@ -22,13 +31,13 @@
       </mj-section>
       
       <mj-section padding="0">
-        <mj-column width="20%">
-           <mj-image src="https://res.cloudinary.com/patrik-vadura/image/upload/v1645530519/patrikvadura_branding/email/profile_me_circle_70x70_01_mopl8y.png" width="70px" />
+        <mj-column width="20%" padding-right="0">
+           <mj-image src="https://res.cloudinary.com/patrik-vadura/image/upload/v1645530519/patrikvadura_branding/email/profile_me_circle_70x70_01_mopl8y.png" width="70px" align="left" />
         </mj-column>
         <mj-column width="80%">
-          <mj-image padding="4px 0 8px 0" src="https://res.cloudinary.com/patrik-vadura/image/upload/v1645530491/patrikvadura_branding/email/logo_vadura_tdk9jf.png" width="100px" align="left" />
-          <mj-text padding="8px 0 4px 0" font-size="11px" line-height="10px" text-transform="uppercase"><span style="color: #8D9081;">Patrik Vaďura</span> | Grafický desiger | Webový vývojář</mj-text>
-          <mj-text padding="0" font-size="11px" color="#8D9081" css-class="link"> <a href="" color="#8D9081">(+420) 725 007 655</a> | <a href="mailto:info@patrikvadura.cz;" color="#8D9081">info@patrikvadura.cz</a> | <a href="https://patrikvadura.cz" color="#8D9081">www.patrikvadura.cz</a> </mj-text>
+          <mj-image css-class="nopadding" padding-bottom="4px" padding-top="8px" src="https://res.cloudinary.com/patrik-vadura/image/upload/v1645530491/patrikvadura_branding/email/logo_vadura_tdk9jf.png" width="100px" align="left" />
+          <mj-text css-class="nopadding" padding-bottom="4px" font-size="11px" line-height="18px" text-transform="uppercase"><span style="color: #8D9081;">Patrik Vaďura</span> | Grafický desiger | Webový vývojář</mj-text>
+          <mj-text css-class="nopadding" padding-top="0" font-size="11px" line-height="18px" color="#8D9081" css-class="link"> <a href="" color="#8D9081">(+420) 725 007 655</a> | <a href="mailto:info@patrikvadura.cz;" color="#8D9081">info@patrikvadura.cz</a> | <a href="https://patrikvadura.cz" color="#8D9081">www.patrikvadura.cz</a> </mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>
