@@ -3,66 +3,50 @@
     <mj-title></mj-title>
     <mj-preview></mj-preview>
     <mj-attributes>
-      <mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
-      <mj-text font-weight="400" font-size="16px" color="#637381" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+      <mj-all font-family="'PT Serif', Times New Roman, serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#222E34" line-height="24px" font-family="'PT Serif', Times New Roman, serif"></mj-text>
     </mj-attributes>
-    <mj-style inline="inline"> .body-section { -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); } </mj-style>
-    <mj-style inline="inline"> .text-link { color: #5e6ebf } </mj-style>
-    <mj-style inline="inline"> .link a { color: #637381!important; font-weight: bold!important; text-decoration: none!important; } </mj-style>
+    <mj-style inline="inline"> .link a { color: #8D9081!important;  text-decoration: none!important; } </mj-style>
+    <mj-style inline="inline"> a { color: #8D9081!important; text-decoration: none!important; } </mj-style>
+    
+    <mj-style>
+      @media (min-width:480px) { 
+        .nopadding {
+          padding-left: 0!important;
+        }
+      }
+    </mj-style>
   </mj-head>
-  <mj-body background-color="#E7E7E7" width="600px">
-    <mj-section full-width="full-width" background-color="#040B4F" padding-bottom="0">
-      <mj-column width="100%">
-        <mj-image src="https://github.com/patrikvadura/patrikvadura_email-branding/blob/main/assets/logo-white.png?raw=true" alt="" align="center" width="150px" padding-bottom="32px" />
-      </mj-column>
-      <mj-column background-color="#ffffff" padding-top="25px" padding-bottom="15px" padding-left="15px" padding-right="15px" width="100%">
-        <mj-text font-weight="bold" font-size="16px" align="center"> Prosím o pár upřesnění k tvorbě webových stránek </mj-text>
-        <mj-divider border-color="#DFE3E8" border-width="1px" />
-        <mj-text font-size="14px" font-weight="bold" line-height="16px" align="center" padding-bottom="0"> Jaké jsou termíny? </mj-text>
-        <mj-text font-size="14px" line-height="16px" align="center"> Existují okolnosti, které mají na tyto termíny vliv? Např. PR aktivity, cross-mediální kampaň, termín nějaké akce (konání veletrhu, vánoce, …) </mj-text>
-        <mj-text font-size="14px" font-weight="bold" line-height="16px" align="center" padding-bottom="0"> Jaký je plánovaný rozpočet? </mj-text>
-        <mj-text font-size="14px" line-height="16px" align="center"> Stanovení finančních mantinelů nám umožní připravit nabídku, která pro Vás bude zajímavá a přijatelná. </mj-text>
-        <mj-text font-size="14px" font-weight="bold" line-height="16px" align="center" padding-bottom="0"> Jaké jsou Vaše konkurenční výhody? </mj-text>
-        <mj-text font-size="14px" line-height="16px" align="center"> Jak se odlišujete? Máte lepší služby? Nižší ceny? Unikátní produkty? Co na Vás oceňují Vaši stávající zákazníci? Případně jak chcete na trhu zaujmout? </mj-text>
-        <mj-text font-size="14px" font-weight="bold" line-height="16px" align="center" padding-bottom="0"> Co už máte připraveno? </mj-text>
-        <mj-text font-size="14px" line-height="16px" align="center"> V jaké fázi jste s přípravou projektu ve Vaší firmě? Jaké dokumenty nám můžete předat k nastudování? </mj-text>
-        <mj-text font-size="14px" font-weight="bold" line-height="16px" align="center" padding-bottom="0"> Grafický manuál, logo </mj-text>
-        <mj-text font-size="14px" line-height="16px" align="center"> Máte zpracovaný grafický manuál, případně alespoň logo manuál? Je možné jej poskytnout pro přípravu grafických návrhů? </mj-text>
-        <mj-text font-size="14px" font-weight="bold" line-height="16px" align="center" padding-bottom="0"> Rozsah webu  </mj-text>
-        <mj-text font-size="14px" line-height="16px" align="center"> (standardně počet stránek, rubrik nebo příspěvků, odhad normostran textu)  </mj-text>
-        <mj-text font-size="14px" font-weight="bold" line-height="16px" align="center" padding-bottom="0"> Typ webu a jeho struktura
-  </mj-text>
-        <mj-text font-size="14px" line-height="16px" align="center"> Typ webu - Statická landing page (1 strana), statický web (více stránek), dynamický web (blog, prodej produktů). Struktura webu - (kategorie, položky v menu, galerie?)  </mj-text>
-        <mj-text font-size="14px" font-weight="bold" line-height="16px" align="center" padding-bottom="0"> Jazykové mutace  </mj-text>
-        <mj-text font-size="14px" line-height="16px" align="center"> Kolik jazykových mutací plánujete? Bude jen jeden jazyk nebo více? Bude cizojazyčný obsah vždy 1 ku 1 k základní jazykové verzi? </mj-text>
-        <mj-text font-size="14px" font-weight="bold" line-height="16px" align="center" padding-bottom="0"> Máte doménu a hosting?   </mj-text>
-        <mj-text font-size="14px" line-height="16px" align="center"> Pokud ne potřebujete obojí zařídit? Mohu vám obojí poskytnout od poskytovatele se kterým dlouhodobě spolupracuji, nebo vám obojí zařídit u poskytovatele dle vašeho vlastního výběru.
-  </mj-text>
-        <mj-text font-size="14px" font-weight="bold" line-height="16px" align="center" padding-bottom="0"> Potřebujete ke svému webu administraci?   </mj-text>
-        <mj-text font-size="14px" line-height="16px" align="center"> Potřebujete sami pravidelně spravovat svůj web, nebo vám stačí externí občasná správa ode mě? Vývoj administrace a její přichystání pro nezkušeného uživatele (zaškolení) může přinést řadu komplikací a prodraží projekt.
-  </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
-      <mj-section background-color="#ffffff" padding="30px 15px 40px 15px">
+
+  <mj-body width="600px">
+    <mj-wrapper padding="0">
+      <mj-section padding="0">
+        <mj-column width="100%" padding="0">
+          <mj-text font-size="18px" color="#8D9081" font-weight="bold">Pojďme společně vytvořit kvalitní zadání</mj-text>
+          
+          <mj-text font-size="14px">Děkuji, že máte zájem o naši vzájemnou spolupráci. Ještě než začneme a stanovíme si podmínky, je potřeba učinit ty správné kroky ke správnému zadání.</mj-text>
+          
+        	<mj-text font-size="14px">Nepodceňujte kvalitu a důkladnost zadání projektu. Stačí špatně vytvořené zadání a váš projekt se vám může výrazně prodražit. Myslete na svoje finance a věnujte zadání svůj čas.</mj-text>
+          
+          <mj-button background-color="#f5f3ee" align="left" color="#8D9081" font-size="14px" font-weight="bold" href="https://dotaznik.vadura.space" >
+            Online dotazník
+          </mj-button>
+          
+          <mj-text font-size="14px">V zájmu kvalitního zadání doporučuji použít můj "Online dotazník", nebo se osobně sejít a o všem se společně pobavit. V případně, že vám ani jedna z variant nevyhovuje, nemějte obavy, sepište vše co považujete v souvislosti za důležité a bude-li mi něco chybět, na konkrétní otázky se zeptám sám.</mj-text>
+        </mj-column>
         <mj-column width="100%">
-          <mj-text font-size="16px" font-weight="bold" align="center" padding-bottom="0"> Dodatečné informace a poznámky </mj-text>
           <mj-divider border-color="#DFE3E8" border-width="1px" />
-          <mj-text font-size="14px" font-weight="bold" line-height="16px" align="center" padding-bottom="0"> Doba trvání  </mj-text>
-        	<mj-text font-size="14px" line-height="16px" align="center"> Dobu trvání ovlivňuje celá řada okolností. Jestli se jendá o návrh statického webu, nebo je součástí webu administrace. Zda je součástí projektu i návrh webdesignu, wireframe nebo prototypizace. V neposlední řadě cenů může značně ovlivnit i množství korektur, kvalita úvodního zadání, nebo třeba klientovy podklady a způsob komunikace. </mj-text>
-          <mj-text font-size="14px" font-weight="bold" line-height="16px" align="center" padding-bottom="0"> Redesign bebo tvorba nového webu  </mj-text>
-        	<mj-text font-size="14px" line-height="16px" align="center"> Někdy je potřeba dopředu zvážit zda je vhodné web renovovat nebo vás výjde lépe web postavit znovu, na novějším a uživatelsky příjemnějším systému. Tohle rozhodnutí určitě nedělejte sami a raději se poraďte, protože rozhodnutí může být závislé na spoustě aspoektů, kteržých si ani nemusíte být vědomi. </mj-text>
-          <mj-text font-size="14px" font-weight="bold" line-height="16px" align="center" padding-bottom="0"> Redakční systém, administrace  </mj-text>
-        	<mj-text font-size="14px" line-height="16px" align="center"> Mít vlastní administraci pro svůj web, kde si sám zvládnu změnit obrázek nebo opravit kontaktní informace, je hezká věc, avšak je třeba zvážit zda ro pro vás má přidanou hodnotu či nikoliv. Všeobecně platí že weby z administrací bývají náročnější na přípravu, nehledě na nutnost zaškolení uživatele do celého systému. Je proto tedy třeba zvážit jak často budete na webu něco upravovat a zda je nutné abyste tyhle úpravy dělali vy sami, nebo úpravy necháte na profesionálovi, který je schopen úpravy provést efektivněji a v kratším čase. </mj-text>
         </mj-column>
       </mj-section>
-    </mj-wrapper>
-    <mj-wrapper full-width="full-width">
-      <mj-section>
-        <mj-column width="100%" padding="0">
-          <mj-text font-size="11px" font-weight="bold" align="center" css-class="link"> <a href="">(+420) 725 007 655</a> | <a href="mailto:info@patrikvadura.cz;">info@patrikvadura.cz</a> | <a href="https://patrikvadura.cz">www.patrikvadura.cz</a> </mj-text>
-          <mj-text color="#445566" font-size="11px" align="center" line-height="12px" padding-bottom="0"> Je potřeba tenhle email tisknout? Zamyslete se nad životním prostředím. </mj-text>
-          <mj-text color="#445566" font-size="11px" align="center" line-height="12px"> &copy; Patrik Vadura, All Rights Reserved. </mj-text>
+      
+      <mj-section padding="0">
+        <mj-column width="20%" padding-right="0">
+           <mj-image src="https://res.cloudinary.com/patrik-vadura/image/upload/v1645530519/patrikvadura_branding/email/profile_me_circle_70x70_01_mopl8y.png" width="70px" align="left" />
+        </mj-column>
+        <mj-column width="80%">
+          <mj-image css-class="nopadding" padding-bottom="4px" padding-top="8px" src="https://res.cloudinary.com/patrik-vadura/image/upload/v1645530491/patrikvadura_branding/email/logo_vadura_tdk9jf.png" width="100px" align="left" />
+          <mj-text css-class="nopadding" padding-bottom="4px" font-size="11px" line-height="18px" text-transform="uppercase"><span style="color: #8D9081;">Patrik Vaďura</span> | Grafický desiger | Webový vývojář</mj-text>
+          <mj-text css-class="nopadding" padding-top="0" font-size="11px" line-height="18px" color="#8D9081" css-class="link"> <a href="" color="#8D9081">(+420) 725 007 655</a> | <a href="mailto:info@patrikvadura.cz;" color="#8D9081">info@patrikvadura.cz</a> | <a href="https://patrikvadura.cz" color="#8D9081">www.patrikvadura.cz</a> </mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>
