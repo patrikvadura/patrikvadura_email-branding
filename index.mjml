@@ -21,11 +21,9 @@
   <mj-body width="600px">
     <mj-wrapper padding="0">
       <mj-section padding="0">
-        <mj-column width="100%" padding="0">
+        <mj-column padding="0">
         	<mj-text font-size="14px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia a assumenda nulla in quisquam optio quibusdam fugiat perspiciatis nobis, ad tempora culpa porro labore. Repudiandae accusamus obcaecati voluptatibus accusantium perspiciatis.</mj-text>
         	<mj-text padding-bottom="8px" font-size="14px">S přáním hezkého dne,</mj-text>
-        </mj-column>
-        <mj-column width="100%">
           <mj-divider border-color="#DFE3E8" border-width="1px" />
         </mj-column>
       </mj-section>
